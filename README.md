@@ -492,230 +492,206 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/9931807d-14d0-4a43-87b8-87cf47ca843c">
 
-
-
-
-
-
-
-****
-EM ANDAMENTO ......
-*****
-*****
-
-
-
-
-
-
-
-
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.3 - `Region` - escolha uma Region da Cloud para criação do workspace; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.4 - `Name` Instance = `instanceLanguageLab` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.5 - `Pricing tier` = `Free F0 (5K Transactions per 30 days)` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.6 - `Storage` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.6.1 - `New/Existing storage Account` - Clique em `New Storage Account`; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.6.2 - `Storage Account Name` - digite um nome para a Storage Account; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.6.3 - `Storage Account Type` - escolha a Storage Account type; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.7 - Clique no botão `Review + Create`; <br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="436" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/3e27c53c-6978-4e2b-aa4e-22cadf4311da">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.8 - Revise os Dados e estando tudo correto, Clique no botão `Create`; <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="436" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/f2f0b96c-90a3-4fbe-beab-8d8edae0282f">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.4.9 - Após a confirmação o Deploy iniciará, e ao final será apresentada uma pagina similar a pagina abaixo: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="606" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/681248dd-bb7c-42f4-a5e1-e06405eb4a60">
-<br>
-
-## 4 - Acesse o `Language Studio`: <a href="https://language.cognitive.azure.com"> <img width="180" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/6fc4bdd0-80e6-4ab4-ae83-3c4e91bfc360">
-</a> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://language.cognitive.azure.com
-  
-## 5 - Selecione o Resource, aprovisionado no passo acima, p/ utilização no Language Studio
-
-5.1 - Assim que você logar, Na página `Home - Welcome to Language Studio`, Abrirá um popup - `Select an Azure resource`, preencha:
-<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-5.1.1 - `Azure Subscription`: selecione a sua Subscription; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-5.1.2 - `Resource Type`: escolha `Language`; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-5.1.3 - `Resource Name`: escolha o Nome da Instancia que criou na Azure; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-5.1.4 - Clique no botão `Done`; <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="668" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/333407ca-fd4f-49fd-beed-f009cb0816be">
-
 ---
 
-# 🔬 Realizando o LAB - AI - Azure - Language Studio (Sentiment Analysis): 
+# 🔬 Realizando o LAB - AI - Azure - SEARCH EXPLORER: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Após Preparação do Ambiente ter sido Finalizado com Sucesso. Vamos iniciar o LAB)
 
 <br>
 
-## 1 - Acesse o `Language Studio`: <a href="https://language.cognitive.azure.com"> <img width="180" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/6fc4bdd0-80e6-4ab4-ae83-3c4e91bfc360">
-</a> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://language.cognitive.azure.com
-  
-## 2 - Escolher - `Language - Sentiment Analysis`
+## 1 - Acesse o `Portal Azure`: <a href="https://portal.azure.com"> <img width="99" alt="https://portal.azure.com" src="https://github.com/mstrulenque/dio-lab-azure-ML/assets/63933792/4665d721-98e7-4c24-bc97-f7540d64a917"></a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://portal.azure.com
 
-2.1 - Na página `Home - Welcome to Language Studio`: <br>
+## 2 - Faça o Login com a sua Conta 🔐
+
+
+## 3 - Acesse o `Search Explorer`
+
+3.1 - Selecione o Resource `AI Search` que criamos para o LAB: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ▶️  Clique na Guia `Classify Text` ; <br>
+3.1.1 - Na página `Home` - `Resources - Recent`: <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     ▶️  Clique no box `Analyze sentiment and mine opinions` ; <br>
+     ▶️  Clique na Nome da Instancia do Recurso `AI Search` que criamos para o LAB ; <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/8c38b2e3-675f-46b5-98c1-7f149aefa68d">
+<img width="620" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/2daa7b8b-f2f5-416a-9f1c-4cb1e1a35582">
 
-## 3 - LAB - `Sentiment Analysis`
 
-3.1 `TESTE - 01` - Texto 1 : `opiniao-celular-maria_p.txt` <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
+3.2 - Selecione o `Search Explorer`: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.3 - `Escolhendo o Texto 1`: `opiniao-celular-maria_p.txt` - pasta: `inputs` - deste repositório GitHub: <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clicar no box `Browse a File` ; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Escolher o Arquivo `opiniao-celular-maria_p.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Clique em `Abrir` ; <br>          
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="491" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/4dbe752a-1719-4a5e-8499-03d9b2783657">
+3.2.1 - Na página `Instancia - AI Search` criada para o LAB: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.4 - `Executando o Teste - 01`
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clique no botão 'Run`;
-   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="475" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/0918be34-a9c0-4653-9ea4-864c06b614dc">
+     ▶️  Clique em `Search Explorer`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="620" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/8009e35d-b5a5-4e0a-a697-db24cd904b20">
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.1.5 - `Resultado do Processamento - Texto 1` pelo `Language Studio`: <br>
+3.2.2 - Na página `Search Explorer` - Altere a View: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="577" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/3aa05320-5009-4149-a2b0-ee0f647ac387">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Clique em `View` e escolha `JSON view`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="610" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/378a1b72-5856-4373-9435-5ba489a577ac">
+
+
+---
+3.3 - Execute LAB: <br>
+
+---
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1 - `Search 01: Contar Todas as Reviews importadas`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1.1 - `Index` - escolher o Index que criamos para o LAB <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1.2 - `JSON query editor` - Consulta que queremos executar no formato JSON <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Copie o JSON abaixo e cole no campo `JSON query editor`<br>
+
+```
+{
+    "search": "*",
+    "count": true
+}
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1.3 - Clique no botão `Search` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1.4 - O Resultado da Pesquisa será apresentada no campo `Results` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.1.5 - Verifique os resultados apresentados <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="586" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/88c589bd-4c7d-4d6f-8010-8c989b5da808">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  OBS: o arquivo JSON completo gerado no resultado desta pesquisa está neste repositorio: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    >> [output/Teste-01_count_todos.json](https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/blob/main/output/Teste-01_count_todos.json)
+
+<br>
+
+---
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2 - `Search 02: Contar os Reviews de Chicago`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2.1 - `Index` - escolher o Index que criamos para o LAB <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2.2 - `JSON query editor` - Consulta que queremos executar no formato JSON <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Copie o JSON abaixo e cole no campo `JSON query editor`<br>
+
+```
+{
+ "search": "locations:'Chicago'",
+ "count": true
+}
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2.3 - Clique no botão `Search` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2.4 - O Resultado da Pesquisa será apresentada no campo `Results` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.2.5 - Verifique os resultados apresentados <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="586" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/426daf89-a9b2-4408-8f07-22b9fa345ebe">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  OBS: o arquivo JSON completo gerado no resultado desta pesquisa está neste repositorio: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    >> [output/Teste-02_count_location-chicago.json](https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/blob/main/output/Teste-02_count_location-chicago.json)
+
+<br>
+
+---
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3 - `Search 03: Contar os Reviews Com Sentimento Negativo`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3.1 - `Index` - escolher o Index que criamos para o LAB <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3.2 - `JSON query editor` - Consulta que queremos executar no formato JSON <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Copie o JSON abaixo e cole no campo `JSON query editor`<br>
+
+```
+{
+ "search": "sentiment:'negative'",
+ "count": true
+}
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3.3 - Clique no botão `Search` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3.4 - O Resultado da Pesquisa será apresentada no campo `Results` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.3.5 - Verifique os resultados apresentados <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="586" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/2475ce75-2c34-4eb5-b50b-3f416e44f8e7">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  OBS: o arquivo JSON completo gerado no resultado desta pesquisa está neste repositorio: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    >> [output/Teste-03_count_ssentiment-negative.json](https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/blob/main/output/Teste-03_count_sentiment-negative.json)
 
 
 <br>
-<br>
 
-3.2 `TESTE - 02` - Texto 2 : `opiniao-celular-joao_n.txt` <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
+---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.3 - `Escolhendo o Texto 2`: `opiniao-celular-joao_n.txt` - pasta: `inputs` - deste repositório GitHub: <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clicar no box `Browse a File` ; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Escolher o Arquivo `opiniao-celular-joao_n.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Clique em `Abrir` ; <br>          
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="426" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/27771125-de79-4151-b2d7-218f34409d33">
+3.3.4 - `Search 04: Contar os Reviews Com Sentimento Positivo`: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.4 - `Executando o Teste - 02`
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clique no botão 'Run`;
-   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="475" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/0918be34-a9c0-4653-9ea4-864c06b614dc">
+3.3.4.1 - `Index` - escolher o Index que criamos para o LAB <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3.3.4.2 - `JSON query editor` - Consulta que queremos executar no formato JSON <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  Copie o JSON abaixo e cole no campo `JSON query editor`<br>
+
+```
+{
+ "search": "sentiment:'positive'",
+ "count": true
+}
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.5 - `Resultado do Processamento - Texto 2` pelo `Language Studio`: <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="644" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/a2ed7379-5f4d-422b-b59f-eeb20ace27b3">
-
-
-<br>
-<br>
-
-3.3 `TESTE - 03` - Texto 3 : `opiniao-celular-jose_p_n.txt` <br>
-
+3.3.4.3 - Clique no botão `Search` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.1 - `Select Text Language` (idioma) - Selecionar: `Portuguese (Brazil)` se for utilizar arquivo texto deste repositório GitHub: <br>
+3.3.4.4 - O Resultado da Pesquisa será apresentada no campo `Results` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.2 - `Azure Resource` - Selecionar o Resource que foi criado na Azure (Preparação do LAB) <br>
+3.3.4.5 - Verifique os resultados apresentados <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.3 - `Escolhendo o Texto 3`: `opiniao-celular-jose_p_n.txt` - pasta: `inputs` - deste repositório GitHub: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="586" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/b23aeac0-5453-4d4b-8ef8-fa4c44ca661a">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clicar no box `Browse a File` ; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Escolher o Arquivo `opiniao-celular-jose_p_n.txt` que fez download do repositorio GitHub p/ sua maquina; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️ Clique em `Abrir` ; <br>          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     ▶️  OBS: o arquivo JSON completo gerado no resultado desta pesquisa está neste repositorio: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    >> [output/Teste-04_count_ssentiment-positive.json](https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/blob/main/output/Teste-04_count_sentiment-positive.json)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/43913d1d-1646-4274-b225-aa8f16a75557">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="394" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/277928ec-51d3-4747-8593-ed1fca715f4c">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.4 - `Executando o Teste - 03`
-    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          ▶️  Clique no botão 'Run`;
-   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="351" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/588325ef-7ca4-4141-90f3-bcf84222c535">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-3.2.5 - `Resultado do Processamento - Texto 3` pelo `Language Studio`: <br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="829" alt="image" src="https://github.com/mstrulenque/AI-Azure-Language-Studio_Analise-Sentimento_LAB/assets/63933792/2370283e-a34f-4953-b518-bc6a5bf89144">
-
+---
 
 <br>
 <br>
