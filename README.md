@@ -7,7 +7,7 @@
 
 `Descrição do LAB` : 
 
-LAB - com o passo-a-passo em texto e print screen, configurando os recursos: AI Search, AI Services e um Storage onde será criado um container que iremos fazer o upload de 9 arquivos word (com imagens e textos de review sobre uma franquia ficticia de Café) e indexar estes arquivos, para conseguirmos através do Search Explorer realizar pesquisas de quantidades de review positivos, negativos, realizados em determinada cidade, etc).
+LAB - com o passo-a-passo em print screen e texto, configurando os recursos: AI Search, AI Services e um Storage onde será criado um container que iremos fazer o upload de 9 arquivos word (com imagens e textos de review sobre uma franquia ficticia de Café) e indexar estes arquivos, para conseguirmos através do Search Explorer realizar pesquisas de quantidades de review positivos, negativos, realizados em determinada cidade, etc).
      
 `Ações que serão realizadas` :
 
