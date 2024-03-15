@@ -1,4 +1,4 @@
-<img width="644" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explore_LAB/assets/63933792/5e108f36-eb0b-4272-98a1-ffed27a89e48"># AI-Azure-Search-Explore_LAB
+# AI-Azure-Search-Explorer_LAB
 
 
 ---
@@ -246,7 +246,7 @@ caso contrário escolha na lista; <br>
 
 ## 6 - Configurando o `Storage Account`
 
-6.1 - `Acessando o Storage Account` criado para o LAB: <br>
+6.1 - `Acessando o Storage Account` provisionado para o LAB: <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ▶️  Na página `Home` - Clique no item de Menu `Storage Accounts`; <br>
@@ -298,13 +298,205 @@ caso contrário escolha na lista; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 6.4.1.1 - Acessar `https://aka.ms/mslearn-coffee-reviews` - Com isto um arquivo zip será baixado na sua maquina; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-6.4.1.2 - `Descompactar arquivo zip`; <br>
+6.4.2 - `Descompactar arquivo zip`; <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="390" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explore_LAB/assets/63933792/751566c0-950e-46e7-b71b-67f820643b20">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-OBS: estes arquivos encontram-se também neste repositório do GitHub - pasta "/input"
+**OBS: estes arquivos encontram-se também neste repositório do GitHub** ▶️ [pasta input](https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/tree/main/input)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3 - `Upload dos Arquivos`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.1 - Acessar o Container Criado - Clicando no Link do Nome do Container; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="644" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explore_LAB/assets/63933792/7f21c2c8-2bcc-4cf9-8edb-537b8ca22f80">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.2 - Na página do `Container` - Clicar em `Upload` <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.3 - No Box `Upload Blob` - Acessar os arquivos word descompactados e `Drag and Drop` ou fazer `Browser` dos arquivos; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.4 - No Box `Upload Blob` - Selecionar a caixa de seleção `Overrite if files already exists`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.5 - No Box `Upload Blob` - Clicar no botão `Upload`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="561" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/f4687aac-cebd-4a0a-b64d-4b8466c87a40">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6.4.3.6 - `Arquivos Importados para o Container`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="561" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/40742ed9-ee79-4448-822a-74ddaefea024">
+
+
+## 7 - Configurando o `AI Search`
+
+7.1 - `Acessando o AI Search Service` provisionado para o LAB: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Na página `Home` - "Resources - Recent" - Clique no link do nome dado a instancia do `AI Search`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Na página da Instancia do `Recurso - AI Search` - Clique em `Import Data`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="367" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/4c688737-266f-4e58-940a-e8e12ca81efd">
+
+7.2 - Configurando `DATA SOURCE`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1 - na página `Import Data`, preencher os campos `Data Source`: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.1 - `Data Source` (tipo) - escolha: `Azure Blob Storage`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.2 - `Data Source name` - digite um nome para o Data Source; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.3 - `Data to extract` - escolha: `Content and Metadata`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.4 - `Parsing Mode` - escolha: `Default`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.5 - `Connection String` - clique no link: `Choose an existing connection`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.6 - `Connection String` - página `Storage Accounts` - clique no link com o nome da Storage que criamos p/ este LAB; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.7 - `Connection String` - página `Containers` - Escolha o Container que criamos p/ este LAB; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.8 - `Connection String` - página `Containers` - Clique no botão `Select`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="367" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/21eae5ad-9ad3-4ab8-8b15-7f2f48f66877">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="285" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/d49506a9-8419-45e9-bafc-f609a49b0766">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.9 - na página `Import Data`, campo: `Managed Identity authentication` - escolher opção: `None`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.2.1.10 - na página `Import Data`, clicar no botão: `Next: Add cognitive skills (optional)`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="285" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/3a5fdd59-b627-424b-914a-c02d6eb1799d">
+
+7.3 - Configurando `SKILLSET`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1 - ainda na página `Import Data`, preencher os campos `Skillset`: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.1 - `AI Services Resource Name` - escolha o Resource `AI Services` que provisionamos para o LAB; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="285" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/2844d0ea-1455-414f-b01e-5eca13737d17">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.2 - `Skillset Name` - digite um nome para o Skillset que iremos configurar; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.3 - Selecione a opção `Enable OCR and merge all text into merged_content field`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.4 - `Source Data field` - escolha: `merged_content`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.5 - Selecione os Itens `Text and Image Skills` abaixo: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Extract location names`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Extract key phrases`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Detect sentiment`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Image Cognitive Skills`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Generate tags from Images`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Generate captions from Images`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="320" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/748405ab-2c50-4962-ab4c-cd4e802bb148">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.3.1.6 - Selecione os Itens `Azure file projections` abaixo: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Image Projections`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Pages - Key phrases`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Pages - Entities`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Image Details - Image References`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Azure blob projections - Document`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  `Container Name`: Selecione o Container que criamos para o LAB;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+▶️  Clique em `Next: Customize target index`;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="300" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/477bac06-c8fd-49aa-a88b-6284f00b9248">
+
+
+7.4 - Configurando `INDEX`: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.4.1 - ainda na página `Import Data`, preencher os campos `Index`: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.4.1.1 - `Index Name` - digite um nome para o Index; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.4.1.2 - `Key` = `metadata_storage_path`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.4.1.3 - Selecionar a coluna `Filtrable` para todos os campos que vieram marcados quando entramos na pagina; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.4.1.4 - Clicar no botão `Next: Create a Indexer`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="334" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/c6700760-78ec-4166-bb90-7f5564a27b95">
+
+
+7.5 - Criando um `INDEXER` (Job que irá executar a indexação): <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.5.1 - ainda na página `Import Data`, preencher os campos `Indexer`: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.5.1.1 - `Indexer  Name` - digite um nome para o Indexer; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.5.1.2 - `Schedule` - escolher `Once` (assim que criado ele executa o Job uma vez); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.5.1.3 - `Advanced options - Base-64 Encode Keys` -> `Selecionar`; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7.5.1.4 - Clicar no Botão `Submit`; <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="334" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/c23ef05c-1ba3-4ca6-8dfe-8ceca23fe7cd">
+
+
+7.6 - `Visão das Configurações realizadas no Resource - AI - SEARCH` <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="520" alt="image" src="https://github.com/mstrulenque/AI-Azure-Search-Explorer_LAB/assets/63933792/9931807d-14d0-4a43-87b8-87cf47ca843c">
+
+
+
+
+
+
 
 ****
 EM ANDAMENTO ......
